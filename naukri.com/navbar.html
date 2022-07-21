@@ -1,70 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar.css">
-    <title>Jobs - Recruitment - Job Search -  Employment - Job Vacancies - Naukri.com</title>
-</head>
-<body>
-    <div id="navbar">
-    
-            <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="" srcset="" href="C:\Users\Hello\Desktop\web101\naukri.com\navbar.html">
-    
-        <ul>
-            <li><a href="#"> Job</a>
-               <div id="box">
-                <div class="dd1">
-                    <p> <a href="#">Popular categories</a> </p><br>
-                    <p> <a href="#">IT jobs</a></p><br>
-                    <p> <a href="#"> Sales jobs</a></p><br>
-                    <p> <a href="#"> Marketing jobs</a></p><br>
-                    <p><a href="#">Data Science jobs</a></p><br>
-                    <p><a href="#"> HR jobs</a></p><br>
-                    <p> <a href="#">Engineering jobs</a> </p>
-                </div>
-                <div class="dd1">
-                    <p> <a href="#">Jobs in demand</a> </p><br>
-                    <p> <a href="#">Fresh jobs</a></p><br>
-                    <p> <a href="#"> MNC jobs</a></p><br>
-                    <p> <a href="#"> Remote jobs</a></p><br>
-                    <p><a href="#">Work from home jobs</a></p><br>
-                    <p><a href="#"> Walk-in jobs</a></p><br>
-                    <p> <a href="#">part-time jobs</a> </p>
-                </div>
-                <div class="dd1">
-                    <p> <a href="#">Explore more jobs</a> </p><br>
-                    <p> <a href="#">Jobs by category </a></p><br>
-                    <p> <a href="#"> Jobs by skill</a></p><br>
-                    <p> <a href="#"> Jobs by location</a></p><br>
-                    <p><a href="#">Jobs by designation</a></p><br>
-                    <p><a href="#"> Create free job alert</a></p><br>
-                </div>
-               </div>
-                
-            </li>
-            <li><a href="#">Companies</a> </li>
-            <li> <a href="#">Services</a> </li>
-            <li> <a href="#">Resources</a> </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css" />
 
-        <div id="rightmenu">
-            <div>Login</div>
-            <div>Register</div>
-        </div>
-        <div>
-            <p> For employers </p>
-            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNyIgdmlld0JveD0iMCAwIDEyIDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMSAxTDYgNkwxIDAuOTk5OTk5IiBzdHJva2U9IiM0NDU1NzgiIHN0cm9rZS13aWR0aD0iMS43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=" alt="">
-        </div>
-        
-        
-           
-    
-     
+    <title>
+      Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+    </title>
+    <link
+      rel="icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <img
+        src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
+        alt=""
+        srcset=""
+        href="C:\Users\Hello\Desktop\web101\naukri.com\navbar.html"
+      />
+      <ul>
+        <li>
+          <a href="#"> Job</a>
+          <div id="box1">
+            <div id="dd1">
+              <h3><a href="#" class="subHeader">Popular categories</a></h3>
+              <br />
+              <p><a href="#">IT jobs</a></p>
+              <br />
+              <p><a href="#"> Sales jobs</a></p>
+              <br />
+              <p><a href="#"> Marketing jobs</a></p>
+              <br />
+              <p><a href="#">Data Science jobs</a></p>
+              <br />
+              <p><a href="#"> HR jobs</a></p>
+              <br />
+              <p><a href="#">Engineering jobs</a></p>
+            </div>
+            <div id="dd2">
+              <h3><a href="#" class="subHeader">Jobs in demand</a></h3>
+              <br />
+              <p><a href="#">Fresh jobs</a></p>
+              <br />
+              <p><a href="#"> MNC jobs</a></p>
+              <br />
+              <p><a href="#"> Remote jobs</a></p>
+              <br />
+              <p><a href="#">Work from home jobs</a></p>
+              <br />
+              <p><a href="#"> Walk-in jobs</a></p>
+              <br />
+              <p><a href="#">part-time jobs</a></p>
+            </div>
+            <div id="dd3">
+              <h3><a href="#" class="subHeader">Explore more jobs</a></h3>
+              <br />
+              <p><a href="#">Jobs by category </a></p>
+              <br />
+              <p><a href="#"> Jobs by skill</a></p>
+              <br />
+              <p><a href="#"> Jobs by location</a></p>
+              <br />
+              <p><a href="#">Jobs by designation</a></p>
+              <br />
+              <p><a href="#"> Create free job alert</a></p>
+              <br />
+            </div>
+            <div id="dd4">
+              <h3><a href="#" class="subHeader">Jobs by location</a></h3>
+              <br />
+              <p><a href="#">Jobs in Delhi </a></p>
+              <br />
+              <p><a href="#"> Jobs in Mumbai</a></p>
+              <br />
+              <p><a href="#"> Jobs in Banglore</a></p>
+              <br />
+              <p><a href="#">Jobs in Hyderabad</a></p>
+              <br />
+              <p><a href="#">Jobs in Chennai</a></p>
+              <br />
+              <p><a href="#"> Jobs in Pune</a></p>
+              <br />
+            </div>
+          </div> 
+        </li>
+        <li>
+            <a href="#">Companies</a>
+            <div id="box2">
+                <div id="dd5">
+                    <h3><a href="#" class="subHeader">Explore categories</a></h3>
+                    <br />
+                    <p><a href="#">Unicorn</a></p>
+                    <br />
+                    <p><a href="#"> MNCs</a></p>
+                    <br />
+                    <p><a href="#"> Startup</a></p>
+                    <br />
+                    <p><a href="#">Product based</a></p>
+                    <br />
+                    <p><a href="#"> Internet</a></p>
+                    <br />
+                </div>
+                <div id="dd6">
+                        <h3><a href="#" class="subHeader">Explore collections</a></h3>
+                        <br />
+                        <p><a href="#">Top companies</a></p>
+                        <br />
+                        <p><a href="#"> Fintech companies</a></p>
+                        <br />
+                        <p><a href="#"> Editech companies</a></p>
+                        <br />
+                        <p><a href="#">Featured companies</a></p>
+                        <br />
+                        <p><a href="#"> Sponsored companies</a></p>
+                        <br />
+                 </div>
+                  <div id="dd7">
+                     <h3><a href="#" class="subHeader">Research companies</a></h3>
+                     <br />
+                     <p><a href="#">Interview questions</a></p>
+                     <br />
+                     <p><a href="#"> Company salaries</a></p>
+                     <br />
+                     <p><a href="#"> About companies</a></p>
+                     <br />
+                     <p><a href="#">Company reviews</a></p>
+                     <br />
+                     <p><a href="#"> Sponsored companies</a></p>
+                     <br />
+                  </div>
+               </div>
+        </li>       
+        <li>
+        <a href="#">Services</a>
+        <div id="box3">
+            <div id="dd8">
+                <h3><a href="#" class="subHeader">Resume Writing</a></h3>
+                <br />
+                <p><a href="#">Text resume</a></p>
+                <br />
+                <p><a href="#">Visual resume</a></p>
+                <br />
+                <p><a href="#"> Resume critique</a></p>
+                <br />
+                <h3><a href="#" class="subHeader" style="margin: 25px 0px;">Find jobs</a></h3>
+                <br />
+               
+                <p><a href="#"> Priority applicant</a></p>
+                <br />
+            </div>
+            <div id="dd9">
+                    <h3><a href="#" class="subHeader">Get recruiter's attention</a></h3>
+                    <br />
+                    <p><a href="#">Resume display</a></p>
+                    <br />
+                    <p><a href="#"> Recruiter connection</a></p>
+                    <br />
+                    <p><a href="#"> Job search booster</a></p>
+                    <br />
+                    <h3><a href="#" class="subHeader" style="margin: 25px 0px; ">Monthly subscriptions</a></h3>
+                    <br />
+                    <p><a href="#">Basic & premium plans</a></p>
+                    <br />
+              </div>
+              <div id="dd10">
+                 <h3><a href="#" class="subHeader">Learn & upskill</a></h3>
+                 <br />
+                 <p><a href="#">Data Science courses</a></p>
+                 <br />
+                 <p><a href="#"> Technology courses</a></p>
+                 <br />
+                 <p><a href="#"> Management courses</a></p>
+                 <br />
+                 <p><a href="#">Finance courses</a></p>
+                 <br />
+                 <p><a href="#"> Design courses</a></p>
+                 <br />
+                 <p><a href="#"> Healthcare courses</a></p>
+                 <br />
+                 <p><a href="#"> Degree programs</a></p>
+                 <br />
+              </div>
+           </div>
+       </li>
+        <li>
+            <a href="#">Resources</a>
+            <div id="box4">
+                <div id="dd11">
+                    <h3><a href="#" class="subHeader">Free resume resources</a></h3>
+                    <br />
+                    <p><a href="#">Resume maker for freshers </a></p>
+                    <br />
+                    <p><a href="#">Resume quality score</a></p>
+                    <br />
+                    <p><a href="#"> Resume samples</a></p>
+                    <br />                   
+                    <p><a href="#"> Job letter samples</a></p>
+                    <br />
+                </div>
+                <div id="dd12">
+                        <h3><a href="#" class="subHeader">More esources</a></h3>
+                        <br />
+                        <p><a href="#">How to use Naukri</a></p>
+                        <br />
+                        <p><a href="#"> Naukri blog</a></p>
+                        <br />
+                        <p><a href="#"> FAQs</a></p>
+                        <br />
+                        <p><a href="#">Take home salary calculator</a></p>
+                        <br />
+                        <p><a href="#">Naukri labs <span style="font-size: 10px;">(beta)</span></a></p>
+                        <br />
+                  </div>                 
+               </div>
+        </li>
+      </ul>
+      <div id="rightmenu">
+        <div>Login</div>
+        <div>Register</div>
+      </div>
+      <div>
+        <p> 
+            For employers
+             <div id="box5">
+                <p><a href="#">Buy online</a></p><br>
+                <p><a href="#">Our hiring solutions</a></p><br>
+                <p><a href="#">Employer Login</a></p><br>
+            </div>
+        </p>
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNyIgdmlld0JveD0iMCAwIDEyIDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMSAxTDYgNkwxIDAuOTk5OTk5IiBzdHJva2U9IiM0NDU1NzgiIHN0cm9rZS13aWR0aD0iMS43NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+          alt=""
+        />
+      </div>
     </div>
-  
-   
-    
-</body>
+<!-- header part -->
+<div id="heading">
+  <h1>Find your dream job now</h1>
+  <h2>5 lakh+ jobs for you to explore</h2>
+
+</div>
+ 
+
+  </body>
 </html>
