@@ -416,3 +416,36 @@ body {
     line-height: 24px;
     color: #8292b4;
    }
+   form{
+    font-family: 'Inter', sans-serif;
+    border: 1px solid black;
+    padding: 10px 0px 10px 15px;
+    background-color:white;
+    border-radius: 30px;
+    width: 1000px;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+   }
+   form>input{
+    border: 0px;
+    margin-left: 20px;
+      color:#1b2437;
+      line-height: 22px;
+      font-size: 16px;
+   }
+   #designation{
+    width: 250px;
+   }
+   button{
+    line-height: 26px;
+    font-size: 19px;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #457eff;
+    position: relative;
+    left: 160px;
+   }
+  
