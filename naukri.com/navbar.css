@@ -418,26 +418,32 @@ body {
    }
    form{
     font-family: 'Inter', sans-serif;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px 0px 10px 15px;
     background-color:white;
     border-radius: 30px;
     width: 1000px;
     margin-left: 10%;
     margin-top: 30px;
+   display: flex;
+   
     
    }
    form>input{
     border: 0px;
     margin-left: 20px;
       color:#1b2437;
-      line-height: 22px;
+      line-height: 20px;
       font-size: 16px;
+    
    }
    #designation{
-    width: 250px;
+    width: 300px;
+    word-spacing: 2px;
+   
    }
-   button{
+
+   #searchbar button{
     line-height: 26px;
     font-size: 19px;
     color: white;
@@ -446,6 +452,105 @@ body {
     border-radius: 25px;
     background-color: #457eff;
     position: relative;
-    left: 160px;
+    left: 80px;
    }
+  form>img{
+    width: 2%;
+    top: 10px;
+    left: 180px;
+    margin-top: 10px;
+    height: 27px;
+    
+    
+  } 
+ #experience,#location{
+    padding-left: 10px;
+    border-left:1px solid #919fbd;
+  }
+  #history{
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 20px;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  #history>p:nth-child(1){
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+   line-height: 18px;
+    font-weight: 500;
+    color: #445578;
+  }
+  #history>p:nth-child(2){
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    color: #457eff;
+    font-weight: 500;
+  }
+  #now{
+    display: flex;
+    justify-content: center;
+    border: 1px dotted blue;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 0px 20px;
+  }
+  #now h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+   
+    color: #1b2437;
+  }
+  #now p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    
+    color: #445578;
+   
+  }
+  #now button{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    font-family:'Inter', sans-serif ;
+    background-color: #ff7555;
+    color: white;  
+  margin: auto;
+  border: 0px;
+    border-radius: 30px;
+    padding: 10px 15px;
   
+  }
+  #now img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%; 
+    width: 80%; 
+  }
+  #now>div{
+    margin: auto;
+   
+  }
+  #now>div:nth-child(1){
+    margin: auto;
+    display: flex;
+   
+  }
+ 
+
