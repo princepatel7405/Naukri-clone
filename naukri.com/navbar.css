@@ -366,6 +366,7 @@ li:hover > #box3 {
   color: #91abd4;
   font-weight: 400;
 }
+
 #box4 p a:hover {
   color: #3ba1e6;
 }
@@ -400,6 +401,7 @@ body > #heading > h1 {
   font-weight: 700;
   color: #1b2437;
   text-align: center;
+
 }
 #heading > h2 {
   font-family: "Inter", sans-serif;
@@ -569,7 +571,6 @@ form > img {
   opacity: 1;
   color: red;
 }
-
 #slid div {
   width: 100%;
   height: 160px;
