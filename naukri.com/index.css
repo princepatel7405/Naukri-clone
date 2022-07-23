@@ -538,7 +538,7 @@ form > img {
   margin: auto;
   display: flex;
 }
-#now+div>h1,#trending+div>h1{
+#now+div>h1,#trending+div>h1,#hiring+div>h1{
   text-align: center;
   font-size: 27px;
   line-height: 40px;
@@ -651,4 +651,139 @@ form > img {
   margin: auto;
   width: auto;
 }
+#featured{
+  display: flex;
+  text-align: center;
+  padding: 10px;
+} 
+#featured>div{
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px 20px;
+  border-radius: 15px;
+} 
+#featured>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#featured h3{
+  font-family:"Inter", sans-serif ;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #1b2437;
+}
+#featured div>h3+div{
+  padding: 5px 10px;
+}
+#featured div>h3+div>h3+div{
+  display: flex;
+  gap: 10px;
+  border-radius: 15px;
+}
+#featured div>h3+div>p:nth-child(2){
+  border-right: 1px solid #8292b4;
+  padding-right: 10px;
+  color: #445578;
+}
+#featured div>h3+div>p:nth-child(3){
+  font-family:"Inter", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #8292b4;
+} 
+#featured div>p{
+  font-family:"Inter", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #8292b4;
+}
+#featured div>p+div{
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 20px;
+  color: #457eff;
+  background-color: #f1f5ff;
+}
+#featured+button{
+  margin:20px;
+  padding:  15px 20px;
+  position: absolute;
+  left: 40vw;
+  font-size: 15px;
+  border-radius: 30px;
+  color: #457eff;
+  background-color: white;
+  border: 1px solid #457eff;
+}
+#jobRole{
+  margin: 200px auto;
+  height: 360px;
+  border: #ff7555;
+  border-radius: 20px;
+  background-color: #fef9f4;
+  display: flex;
+}
+#jobRole>div:nth-child(1){
+  width: 300px;
+
+  margin: auto;
+  position: relative;
+  right: 350px;
+}
+#jobRole>div:nth-child(1)>img{
+  height: 103px;
+}
+#jobRole>div h2{
+  font-family:"Inter", sans-serif ;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 40px;
+  color: #1b2437;
+}
+#jobRole>div:nth-child(1)>p{
+  font-family:"Inter", sans-serif ;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #8292b4;
+}
+
+#jobRole+div{
+  display: grid;
+  grid-template-columns: repeat(2,220px);
+  gap: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 440px;
+  position: absolute;
+  top: 266vh;
+  left: 40vw;
+  padding: 80px ;
+  border-radius: 20px;
+  background-color: white;
   
+}
+#jobRole+div>div{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ border-radius: 20px;
+ padding-left: 10px;
+ background-color: white; 
+}
+#jobRole+div>div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#jobRole+div h3{
+  font-family:"Inter", sans-serif ;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #1b2437;
+}
+#jobRole+div p{
+  font-family:"Inter", sans-serif ;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8292b4;
+}
